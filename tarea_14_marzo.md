@@ -9,12 +9,10 @@ dp[i]=máximo dinero que puedo robar hasta la casa i
 ## Recurrencia
 Para cada casa 𝑖:
 
-```python
 𝑑𝑝[𝑖]=max⁡(𝑑𝑝[𝑖−1],𝑑𝑝[𝑖−2]+𝑛𝑢𝑚𝑠[𝑖])
 
 dp[i−1]: no robo la casa actual
 dp[i−2]+nums[i]: robo la casa actual
-```
 
 ---
 ## Casos base
